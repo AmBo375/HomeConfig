@@ -1,0 +1,36 @@
+import = [
+    "~/.config/alacritty/themes/themes/falcon.toml"
+]
+
+[cursor.style]
+blinking = "on"
+shape = "Beam"
+
+[font]
+size = 12
+
+[font.normal]
+family = "Ubuntu Mono"
+
+[font.offset]
+x = 0
+y = 1
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+dynamic_title = false
+title = "Terminal"
+opacity = 0.85
+
+[window.padding]
+x = 5
+y = 5
